@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "components/canvas_reveal.jsx", "components/ui/CanvasReveal.jsx"  ],
   "exclude": ["node_modules"]
 }
