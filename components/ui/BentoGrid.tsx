@@ -28,8 +28,7 @@ export const BentoGridItem = ({
   description,
   header,
   icon,
-  image, // NEW
-  id,
+  image, 
 }: {
   className?: string;
   title?: string | React.ReactNode;
@@ -42,13 +41,12 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "group/bento relative shadow-input row-span-1 flex flex-col justify-between space-y-4 rounded-3xl border border-neutral-200 bg-white p-4 transition duration-200 hover:shadow-xl dark:border-white/20 dark:bg-black dark:shadow-none",
+        "group/bento relative shadow-input row-span-1 flex flex-col justify-between space-y-4 rounded-3xl border border-neutral-200 bg-white p-4 transition duration-200 hover:shadow-xl dark:border-white/20 dark:bg-black dark:shadow-none cursor-pointer",
         className,
       )}
     >
       {header}
 
-      {/* IMAGE */}
       {image && (
         <div className="-mx-4 -mt-4 h-[55%] lg:h-[75%] sm:h-[70%]">
           <img

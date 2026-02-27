@@ -33,7 +33,7 @@ export const gridItems = [
   {
     id: 4,
     title: "My tech stack",
-    description: "C, Python, React, Next.js, Tailwind — always expanding.",
+    description: "C++, Python, Java, Next.js, Tailwind — always expanding.",
     img: "/b4.png",
     spareImg: "/b4.svg",
     imgClassName: "w-full h-full object-cover",
