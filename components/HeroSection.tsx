@@ -64,7 +64,7 @@ const HeroSection = () => {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
               transition={{ duration: 0.5 }}
-              className="text-4xl md:text-6xl lg:text-7xl font-bold font-mono tracking-tight"
+              className="text-4xl md:text-6xl lg:text-7xl font-extrabold font-mono tracking-tight"
             >
               {languages[index].code}
             </motion.h1>

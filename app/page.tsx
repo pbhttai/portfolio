@@ -1,3 +1,4 @@
+import AboutMe from "@/components/AboutMe";
 import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
@@ -13,9 +14,9 @@ export default function Home() {
             {name: 'About', link: '#about', icon: <FaUser/>}
           ]} />
         <Hero />
-        <Grid />
+        {/* <Grid /> */}
           
-          {/* more here */}
+        <AboutMe />
 
         <Footer/>
       </div>
